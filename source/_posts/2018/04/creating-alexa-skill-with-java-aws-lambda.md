@@ -20,4 +20,6 @@ Gone are the days where we build applications and just think about graphical use
 
 In-Progress... You can refer to the source code meanwhile from the github link given. 
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/294rrSNM1OMEYj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/BuddhaJyothiprasad/developing-alexa-skill-using-java-with-aws-lambda" title="Developing alexa Skill using Java With AWS Lambda" target="_blank">Developing alexa Skill using Java With AWS Lambda</a> </strong> from <strong><a href="//www.slideshare.net/BuddhaJyothiprasad" target="_blank">Buddha Jyothiprasad</a></strong> </div>
+
 ---
