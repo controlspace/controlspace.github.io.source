@@ -11,19 +11,19 @@ cd ~/workspace/source
 hexo generate
 git stage -f *
 git commit -m "$1"
-git push origin master
+git push github master
 cd ~/workspace/output
 grep -rl 'data-preview="true"' ./2* | xargs sed -i 's/data-preview="true"//g'
 git stage -f *
 git commit -m "$1"
-git push origin master
+git push github master
 
 gcloud config set project 'control-space'
 gcloud app deploy
 
 # in order to avoid giving user name and password everytime, execute the following commands... trick is to use ssh instead of https
-# jbuddha:~/workspace/source (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.source.git
-# jbuddha:~/workspace/output (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.git
+# jbuddha:~/workspace/source (master) $ git remote add github https://github.com/controlspace/controlspace.github.io.source.git
+# jbuddha:~/workspace/output (master) $ git remote add github https://github.com/controlspace/controlspace.github.io.git
 
 
 # If SSH permission denied
