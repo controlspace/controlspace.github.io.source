@@ -1,6 +1,7 @@
 # Header
 menu:
   Home: /
+  Archives: /archives
   About: /about
 rss: /atom.xml
 
@@ -11,9 +12,9 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- recent_posts
 - tagcloud
 - archive
-- recent_posts
 - author
 
 # display widgets at the bottom of index pages (pagination == 2)
@@ -31,5 +32,5 @@ google_analytics: UA-75818367-1
 favicon: /favicon.ico
 twitter: prbuddha
 google_plus: JyothiprasadBuddha
-fb_admins: 
+fb_admins:
 fb_app_id:

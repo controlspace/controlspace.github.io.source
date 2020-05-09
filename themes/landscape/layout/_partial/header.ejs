@@ -3,11 +3,11 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo"><%= config.title %></a>
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </h1>
       <% if (theme.subtitle){ %>
         <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle"><%= theme.subtitle %></a>
+          <a href="<%- url_for() %>" id="subtitle"><%= theme.subtitle %></a>
         </h2>
       <% } %>
     </div>
@@ -20,9 +20,9 @@
       </nav>
       <nav id="sub-nav">
         <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="main-nav-link nav-icon" href="<%- theme.rss %>" title="<%= __('rss_feed') %>"></a>
+          <a id="nav-rss-link" class="main-nav-link nav-icon" href="<%- url_for(theme.rss) %>" title="<%= __('rss_feed') %>"></a>
         <% } %>
-        <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %> Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
       <div id="search-form-wrap">
         <%- search_form({button: '&#xF002;'}) %>

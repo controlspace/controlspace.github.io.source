@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <!-- for bing's convenience -->
   <meta name="msvalidate.01" content="18487D0B4A4C57C561C46743ED26C1CA" />
+
   <%
   var title = page.title;
 
@@ -25,7 +26,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss){ %>
-    <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+    <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
