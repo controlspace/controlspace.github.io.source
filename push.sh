@@ -17,7 +17,9 @@ grep -rl 'data-preview="true"' ./2* | xargs sed -i 's/data-preview="true"//g'
 git stage -f *
 git commit -m "$1"
 git push origin master
-appcfg.py update .
+
+gcloud config set project 'control-space'
+gcloud app deploy
 
 # in order to avoid giving user name and password everytime, execute the following commands... trick is to use ssh instead of https
 # jbuddha:~/workspace/source (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.source.git
@@ -38,3 +40,6 @@ appcfg.py update .
 # git config --global user.name "bob"
 # git config --global user.email bob@... (don't forget to restart your command line to make sure the config is reloaded)
 # Thats it you should be good to clone and checkout.
+
+# changed from google app engine api to gcloud api recently, so we need to install gloud first and login as per below URL
+# https://cloud.google.com/sdk/docs/authorizing
