@@ -5,7 +5,7 @@ updated: 2016-03-02
 ---
 ## Admonition
 
-Python markdown实现中扩展了markdown的语法，让其支持了[admonition][]。标准markdown语法是不支持的，在hexo中我们可以安装[hexo-tag-admonition][]这个插件来用tag实现admonition。
+Python markdown实现中扩展了markdown的语法，让其支持了[admonition][]。标准markdown语法是不支持的，在hexo中我们可以通过安装[hexo-tag-admonition][]这个插件来用tag实现admonition。
 
 在hexo site目录中，安装admonition插件:
 
@@ -13,22 +13,24 @@ Python markdown实现中扩展了markdown的语法，让其支持了[admonition]
 npm install --save hexo-tag-admonition
 ```
 
-使用的时候，在markdown文件这样写:
+使用的时候，在markdown文件中这样写:
 
 ```
 {% admonition danger Don't do this %}
-Hello this is just a test
+Hello this is just a test.
+This is an another line.
 {% endadmonition %}
 ```
- 
+
 然后你看到的就是下面的结果:
 
 {% admonition danger Don't do this %}
-Hello this is just a test
+Hello this is just a test.
+This is an another line.
 {% endadmonition %}
 
 
-`admonition`是tag的名字，`danger`会是最后身成的html相关tag的class。这个地方你可以填成"note", "info", "tips", "warning", "important", "danger", "critical"，当然也可以是其他值，只要你所用的主题对这些class指定了样式就可以。
+`admonition`是tag名，`danger`会是最后生成的html中用于style的class。这个地方你可以填成"note", "info", "tips", "warning", "important", "danger", "critical"，当然也可以是其他值，只要你所用的主题对这些class指定了样式就可以。
 
 下面是一些例子:
 
@@ -107,3 +109,4 @@ Hello this is just a test
 <div class="admonition danger"><p class="admonition-title">Danger</p><p>Boooooom!!!</p></div>
 
 [admonition]: https://pythonhosted.org/Markdown/extensions/admonition.html
+[hexo-tag-admonition]: https://github.com/haishanh/hexo-tag-admonition

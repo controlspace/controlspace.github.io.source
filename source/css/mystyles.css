@@ -50,6 +50,12 @@
   background: center #000;
 }
 
+.center-children {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
 .binary-tree-arrow {
   z-index: 0; 
   cursor: inherit; 
