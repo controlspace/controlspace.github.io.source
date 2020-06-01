@@ -6,3 +6,4 @@ public/
 /nbproject/private/
 db.json
 node_modules
+.idea
