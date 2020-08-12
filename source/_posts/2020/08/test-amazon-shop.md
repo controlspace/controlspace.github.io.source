@@ -6,7 +6,7 @@ author: Jyothi Prasad Buddha
 description: Shows a method of expiring items in browser localStorage
 ---
 
-Just testing
+Just testing...
 
 <div class="center-children">
 <!-- 	<iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B08313LNGQ&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_RQXTEbZMG9CNT&tag=controlspac0c-20" ></iframe> -->

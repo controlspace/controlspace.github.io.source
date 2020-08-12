@@ -1,8 +1,8 @@
-cd ~/workspace/source
+cd /Volumes/work/controlspace/source
 git pull
-cd ~/workspace/output
+cd /Volumes/work/controlspace/output
 git pull
-cd ~/workspace/source
+cd /Volumes/work/controlspace/source
 hexo generate
 
 

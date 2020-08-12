@@ -1,2 +1,2 @@
-cd ~/workspace/source
+cd /Volumes/work/controlspace/source
 hexo serve
