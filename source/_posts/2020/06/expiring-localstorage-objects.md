@@ -70,6 +70,6 @@ In this snippet, we have one auxiliary method to help with detection of expirati
 * Also, we only remove the items when user tries to access them so, if we store an item and never read it again, we may leave that item forever in localStorage. We can solve that as well but it is for a different post.
 {% endadmonition %}
 
-There can be other frameworks that may solve this problem elegantly, but what is more interesting than solving problems ourselves. 
+There can be other frameworks that may solve this problem elegantly, but what is more interesting than solving problems ourselves.
 
 ---
