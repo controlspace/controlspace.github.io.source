@@ -8,9 +8,9 @@ description: Demonstrates how to read csv files as hash maps from S3 without dow
 
 In this world where large amounts of data is becoming a norm, it is very frequently stored in S3 in csv format for consumption through serverless database layers such as Athena. However, you often have to read the csv files without using Athena. In such cases, you can use ever useful libraries such as OpenCSV to read csv files.
 
-This article shows how to quickly read the S3 files without need to download them first. This helps when you do not have a way to save files locally of if you don't have enough hard disk space. The solution is quite simple. You just have to create an InputStream from an S3 object using getObject method on S3 client.
+This article shows how to quickly read the S3 files without need to download them first. This helps when you do not have a way to save files locally of if you don't have enough hard disk space. The solution is quite simple. You just have to create an InputStream from an S3 object using getObject method on S3 client. Once the input stream is created, we can use this to create a CSVReader from it.
 
-Once the input stream is created, we can use this to create a CSVReader from it. Assuming that the CSV files have a header row, you can use CSVReaderHeaderAware class to create a list of hashmaps by reading each record iteratively using readMap method. If readMap method returns null, this means that you have reached end of file. Here is a complete solution for your reference.
+Assuming that the CSV files have a header row, you can use CSVReaderHeaderAware class to create a list of hashmaps by reading each record iteratively using readMap method. If readMap method returns null, this means that you have reached end of file. Here is a complete solution for your reference.
 
 {% codeblock lang:java %}
 import java.io.*;

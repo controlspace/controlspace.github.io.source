@@ -1,14 +1,14 @@
-cd /Users/buddhaj/workspace/source
+cd /Volumes/work/controlspace/source
 git pull
-cd /Users/buddhaj/workspace/output
+cd /Volumes/work/controlspace/output
 git pull
-cd /Users/buddhaj/workspace/source
+cd /Volumes/work/controlspace/source
 hexo generate
 
 
 # in order to avoid giving user name and password everytime, execute the following commands... trick is to use ssh instead of https
-# jbuddha:~/workspace/source (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.source.git
-# jbuddha:~/workspace/output (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.git
+# jbuddha:/Volumes/work/controlspace/source (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.source.git
+# jbuddha:/Volumes/work/controlspace/output (master) $ git remote set-url origin git@github.com:controlspace/controlspace.github.io.git
 
 
 # If SSH permission denied

@@ -1,2 +1,2 @@
-cd /Users/buddhaj/workspace/source
+cd /Volumes/work/controlspace/source
 hexo generate -w
