@@ -1,2 +1,2 @@
-cd /Volumes/work/controlspace/source/
+cd /Volumes/work/controlspace/source
 hexo generate -w
