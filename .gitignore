@@ -5,6 +5,4 @@ public/
 .deploy*/
 /nbproject/private/
 db.json
-node_modules
 .idea
-/node_modules/
