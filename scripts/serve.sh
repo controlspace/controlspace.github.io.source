@@ -1,2 +1,2 @@
-cd ~/workspace/source
+cd /Users/buddhaj/workspace/source
 hexo serve

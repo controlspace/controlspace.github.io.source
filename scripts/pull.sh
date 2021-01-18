@@ -1,8 +1,8 @@
-cd ~/workspace/source
+cd /Users/buddhaj/workspace/source
 git pull
-cd ~/workspace/output
+cd /Users/buddhaj/workspace/output
 git pull
-cd ~/workspace/source
+cd /Users/buddhaj/workspace/source
 hexo generate
 
 
