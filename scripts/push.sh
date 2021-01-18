@@ -1,9 +1,9 @@
-cd /Volumes/work/controlspace/source
+cd /Users/buddhaj/workspace/source
 hexo generate
 git stage -f *
 git commit -m "$1"
 git push origin master
-cd /Volumes/work/controlspace/output
+cd /Users/buddhaj/workspace/output
 grep -rl 'data-preview="true"' ./2* | xargs sed -i 's/data-preview="true"//g'
 git stage -f *
 git commit -m "$1"
