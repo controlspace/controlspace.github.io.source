@@ -10,8 +10,6 @@ In this world where large amounts of data is becoming a norm, it is very frequen
 
 This article shows how to quickly read the S3 files without need to download them first. This helps when you do not have a way to save files locally of if you don't have enough hard disk space. The solution is quite simple. You just have to create an InputStream from an S3 object using getObject method on S3 client.
 
- <!-- more -->
-
 Once the input stream is created, we can use this to create a CSVReader from it. Assuming that the CSV files have a header row, you can use CSVReaderHeaderAware class to create a list of hashmaps by reading each record iteratively using readMap method. If readMap method returns null, this means that you have reached end of file. Here is a complete solution for your reference.
 
 {% codeblock lang:java %}
@@ -46,6 +44,8 @@ public class S3CSVReader {
     }
 }
 {% endcodeblock %}
+
+ <!-- more -->
 
 In order to use this code, you can create an object of S3CSVReader class and invoke `getS3Records` method by passing the S3 bucket name and key path of the CSV file in S3. This method creates a reader object and iterates through all records to create a List of HashMaps and returns the result.
 
