@@ -104,7 +104,7 @@ feed:
   limit: 20
 
 sitemap:
-    path: sitemap.xml
+  path: sitemap.xml
 
 lazyload:
   enable: true
