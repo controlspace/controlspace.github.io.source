@@ -1,6 +1,6 @@
 ---
 title: Expiring Local Storage Objects in JavaScript
-date: 2020-06-01
+date: 2020-06-10
 tags: ['javascript']
 author: Jyothi Prasad Buddha
 description: Shows a method of expiring items in browser localStorage

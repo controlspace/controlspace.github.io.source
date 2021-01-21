@@ -80,7 +80,7 @@ col_1,col_2,col_3,col_4
 
 If you want to understand the code here is the flowchart of the algorithm.
 
-<img src="/assets/svgs/2021/01/read-s3-files-using-opencsv-algorithm.svg">
+<img src="/assets/svgs/2021/01/read-s3-files-using-opencsv-algorithm.svg" alt="Algorithm of reading s3 csv files using OpenCSV">
 
 In this snippet, we have two helper methods `getReader` to help with creation of the reader object that is aware of header row and 'getS3' to help us create an S3 client. Please change the aws credentials profile to the one you are using in your computer. If you configured default profile you can also use `AmazonS3ClientBuilder.defaultClient()` for creating S3 client.
 

@@ -3,14 +3,13 @@ title: Generating the Jam Coins
 date: 2016-04-12
 tags: ['problems', 'codejam', 'java', 'puzzle', 'competition', 'solution']
 author: Buddha
-description: Jam Coins is an interesting problem which gives a glimpse into another popular virtual currency, bit coin mining. Here, I'm going to show you how to solve both small as well as large datasets within time limit.
+description: I'm going to show you how to solve JamCoins problem of 2016 Google codejam for both small as well as large datasets within time limit.
 sourcecode: https://github.com/jbuddha/competitions/blob/master/codejam/src/year2016/JamCoins.java
 sourcetype: g
 ---
-![The Problem](https://farm2.staticflickr.com/1638/25470220981_c6d315ac60_m.jpg)
 ## The Problem
 
-Here is a moderate problem of CodeJam's qualification round of 2016. The Jam Coins. Here is the description of the problem. You need to generate jamcoins of either 16 digits for small dataset or 32 digits for large datasets. Jam Coins follow the given rules...
+Here is a moderate problem of CodeJam's qualification round of 2016. The Jam Coins. It is an interesting problem which gives a glimpse into another popular virtual currency, bit-coin mining. Here is the description of the problem. You need to generate jamcoins of either 16 digits for small dataset or 32 digits for large datasets. Jam Coins follow the given rules...
 1. A Jam Coin is only made up of 1's & 0's of the required number of digits.
 1. It begins and ends with 1.
 1. If that interpreted from base 2 to base 10, it should not be a prime number in any of them.
@@ -65,7 +64,6 @@ Case #1:
 ```
 
 ## My solution
-![Let us take a closer look](https://farm2.staticflickr.com/1561/25195430059_5a59d15b1a_n.jpg)
 Let us begin with breaking the problem into manageable chunks before we try to solve it.
 
 {% codeblock Solution Pseudo Code  %}
@@ -168,7 +166,6 @@ static BigInteger findSmallestFactor(BigInteger n) {
 }
 ```
 
-![Let us put all the pieces together](https://farm2.staticflickr.com/1593/25562936785_01a1831fc9_m.jpg)
 {% codeblock JamCoins.java lang:java  %}
 package year2016;
 

@@ -3,7 +3,7 @@ title: Restricting an ojInputText to accept only numbers
 date: 2016-04-22
 tags: ['oraclejet', 'javascript', 'html']
 author: Buddha
-description: If you have used ojInputText of Oracle Jet framework. You might have observed that it doesn't provide any way to restrict input, here is a solution that simply removes any non numeric characters if entered.
+description: The ojInputText component of OracleJet doesn't let you restrict the input. Here is a solution that rejects any non numeric characters.
 ---
 Oracle Jet is a beautiful toolkit for simplifying lot of tasks. ojInputText is a basic editor the framework provides, it can validate the text entered based on the regular expression we give, but validation only happens on blur and if we simply want to filter any keystrokes that don't match that, we can't do it by default.
 
