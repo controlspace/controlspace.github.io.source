@@ -1,5 +1,5 @@
 ---
-title: Read S3 CSV Files into HashMaps Using OpenCSV
+title: How to read S3 CSV files into hashmaps using OpenCSV
 date: 2021-01-17
 tags: ['java', 's3', 'aws', 'opencsv', 'data', 'files', 'example']
 author: Jyothi Prasad Buddha
