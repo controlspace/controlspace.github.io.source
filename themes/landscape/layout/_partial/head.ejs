@@ -30,9 +30,31 @@
   <% } %>
   <% if (theme.favicon){ %>
     <link rel="icon" href="<%- theme.favicon %>">
-    <link rel="shortcut icon" href="<%- theme.favicon %>" />
-
   <% } %>
+  <% if (theme.favicon16){ %>
+      <link rel="icon" href="<%- theme.favicon16 %>">
+  <% } %>
+
+  <% if (theme.favicon32){ %>
+      <link rel="icon" href="<%- theme.favicon32 %>">
+  <% } %>
+
+  <% if (theme.faviconapple){ %>
+    <link rel="icon" href="<%- theme.faviconapple %>">
+  <% } %>
+
+  <% if (theme.faviconandroid192){ %>
+    <link rel="icon" href="<%- theme.faviconandroid192 %>">
+  <% } %>
+
+  <% if (theme.faviconandroid512){ %>
+    <link rel="icon" href="<%- theme.faviconandroid512 %>">
+  <% } %>
+
+  <% if (theme.webmanifest){ %>
+    <link rel="icon" href="<%- theme.webmanifest %>">
+  <% } %>
+
   <% if (config.highlight.enable){ %>
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <% } %>

@@ -29,7 +29,13 @@ show_count: true
 
 # Miscellaneous
 google_analytics: UA-75818367-1
-favicon: /favicon.ico
+favicon: /assets/icons/favicon.ico
+favicon16: /assets/icons/favicon-16x16.png
+favicon32: /assets/icons/favicon-32x32.png
+faviconapple: /assets/icons/apple-touch-icon.png
+faviconandroid192: /assets/icons/android-chrome-192x192.png
+faviconandroid512: /assets/icons/android-chrome-512x512.png
+webmanifest: /assets/icons/site.webmanifest
 twitter: prbuddha
 google_plus: JyothiprasadBuddha
 fb_admins:
