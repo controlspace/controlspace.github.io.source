@@ -1,13 +1,12 @@
 ---
 title: Top View of Binary Tree without Recursion
 date: 2016-07-23
-tags: ['java', 'algorithms','datastructures', 'solutions','problems']
+tags: ['java', 'algorithms', 'data-structures', 'problem', 'interview-question', 'binary-tree']
 author: Buddha
 description: This article shows you how to print top view of a binary tree, which using recursion.
 ---
 
 <img src="/assets/svgs/2016/top-view-of-binarytree.svg" alt="Top view of a binary tree"/>
-<p></p><span class="caption">Top View of Binary Tree</span>
 
 ## The Problem
 
