@@ -5,15 +5,15 @@
 # Site
 title: Ctrl+Space
 subtitle: The Intellisense Every Programmer Needs
-description:
+description: A blog that documents solutions and information developers need on day to day basis
 author: Buddha Jyothiprasad
 language:
   - default
 timezone: Asia/Kolkata
-keywords:
+keywords: tech, computers, coding, algorithms, datastructures
 
 # URL
-url: http://controlspace.info
+url: https://controlspace.info
 root: /
 permalink: :title/
 permalink_defaults:
@@ -94,7 +94,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 disqus_shortname: controlspace
 
@@ -112,3 +112,12 @@ lazyload:
   post:
     only: false
     excludeEncrypt: true
+
+# hexo-tag-cloud
+tag_cloud:
+  textFont: 'Trebuchet MS, Helvetica'
+  textColor: '#FFF'
+  textHeight: 12
+  outlineColor: '#000'
+  maxSpeed: 0.01 # range from [0.01 ~ 1]
+  pauseOnSelected: true # true means pause the cloud tag movement when highlight a tag
