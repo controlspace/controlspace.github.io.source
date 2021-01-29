@@ -13,7 +13,7 @@ However, cookies can only store small amounts of information. The other kind of 
 
 Local storage provides an intermediary option, it can store large amount of information and it will not be lost after the user closes the tab or browser. The data is persisted across sessions. However, we may want a better solution. We want to store large chunks of data across sessions, but we still want to have an option of invalidating after a certain period of time.
 
- <!-- more -->
+## Solution
 The solution is to wrap localStorage API with a utility. Your application's logic for accessing should encapsulated in a single class. Using localStorage revolves around storing item with a key and fetching the item previously stored.
 
 The utility we are going to create can provide utility methods to save and load from localStorage. The save method will store the item along with the timestamp, where are load method should first check if the item has already expired before returning it. Here is the that does just that.

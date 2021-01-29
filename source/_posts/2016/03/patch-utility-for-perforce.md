@@ -4,17 +4,13 @@ date: 2016-03-08
 tags: ['javafx','opensource','perforce','java']
 description: Introduction to an opensource utility for generating patch files for pending changelists in perforce version controlling system
 author: Buddha
-download: https://github.com/jbuddha/perforce-patcher/blob/master/dist/perforce-patcher.jar?raw=true
-sourcecode: https://github.com/jbuddha/perforce-patcher
-sourcetype: g
 ---
 
 Perforce is a proprietary version controlling system. It has been around for more than 20 years. However, one glaring limitation always bugs the users. The inability to generate proper diff files.
 ![Where is my patch?](https://farm2.staticflickr.com/1441/25563016955_8a691e760b_n.jpg)
 I can anticipate what is going on in your mind, we can generate a diff file by using the command line interface. `p4 diff` helps us generate a diff file. However if you ever had a misfortune of trying to generate patch files on regular basis. You would understand the pain. It works fine as long as you just modify existing files. However, if you have new files added to the workspace to be checked into to the depot, you quickly run out of luck. One more problem is that you can’t control the files included in the diff file based on change list. It gives you diff file for all the files that are modified. Of course, you can give individual file names, but you have to repeat it either one by one or by using common wildcard. To overcome this, I have come up with a simple JavaFX utility.  Using this utility is as simple as it can get.
-<!-- more -->
 
-First step is to download the jar file. Click on the download button at the beginning or ending of the article. Just double click the jar file to run it.
+First step is to download the [Perforce Patcher jar](https://github.com/jbuddha/perforce-patcher/blob/master/dist/perforce-patcher.jar?raw=true). Just double click the jar file to run it.
 {% admonition warning Watchout %}
 You Need JRE 8 to run this without any additional configuration. If you are using JRE 7, please keep jfxrt.jar in class path or simply copy it to your jre/lib/ext folder. jfxrt.jar is available inside your {jre or jdk}/lib folder.
 {% endadmonition %}
@@ -29,4 +25,4 @@ Upon opening the application you will be presented with the login screen. Login 
 You will be logged out upon closing the application automatically.You can download the utility as a runnable jar from the github repository folder.
 {% endadmonition %}
 
-You can find the project and its source in github. If you like the project, and want to contribute by adding more features, please fork the github repo. It is a maven project so building it is as quick as a wink.
+You can find the [project and its source](https://github.com/jbuddha/perforce-patcher) in github. If you like the project, and want to contribute by adding more features, please fork the github repo. It is a maven project so building it is as quick as a wink.
