@@ -14,7 +14,7 @@ keywords: tech, computers, coding, algorithms, datastructures
 
 # URL
 url: https://controlspace.info
-root: /blog
+root: /
 permalink: :title/
 permalink_defaults:
 pretty_urls:
