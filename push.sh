@@ -17,7 +17,6 @@ grep -rl 'data-preview="true"' ./2* | xargs sed -i 's/data-preview="true"//g'
 git stage -f *
 git commit -m "$1"
 git push origin master
-cd blog
 gcloud config set project 'control-space'
 gcloud app deploy
 
