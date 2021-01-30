@@ -4,8 +4,6 @@ date: 2018-04-19
 tags: ['java', 'alexa','aws', 'dynamodb','ask']
 author: Buddha
 description: This article shows you how to create your own alexa skill using Java and AWS Lambda
-sourcecode: https://github.com/jbuddha/remembral-alexa-skill-lambda
-sourcetype: g
 ---
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/140760885@N04/41511389842/in/dateposted/" title="Alexa Devices"><img src="https://farm1.staticflickr.com/924/41511389842_a9cda86d32_b.jpg" width="800" height="600" alt="alexa"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

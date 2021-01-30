@@ -6,13 +6,11 @@ author: Buddha
 description: This article shows you how to print top view of a binary tree, which using recursion.
 ---
 
-<img src="/assets/svgs/2016/top-view-of-binarytree.svg" alt="Top view of a binary tree"/>
+<img src="/blog/assets/svgs/2016/top-view-of-binarytree.svg" alt="Top view of a binary tree"/>
 
-## The Problem
+If you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree, how do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about {% post_link 2016/07/right-view-of-binarytree-without-recursion Right View of Binary Tree without Recursion %}
 
-Imagine you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree. How do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about {% post_link 2016/07/right-view-of-binarytree-without-recursion Right View of Binary Tree without Recursion %}
-
- <!-- more -->
+<!-- more -->
 
 ## The Solution
 

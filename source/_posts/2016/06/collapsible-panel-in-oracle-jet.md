@@ -10,7 +10,7 @@ Before we begin, let me show you the final output we are going to get. Click Run
 {% codepen PzGZMW 'Collapsible and Expandable Panels' result wait 265 %}
 
 The panel can be minimized or maximized by clicking on the arrow button. It can also be removed completely by clicking close button. How do we achieve this? I have used KnockoutJS, OracleJET and jQuery to achieve the result. RequireJS is also used but only to get the required libraries from CDN. However, OracleJet is predomantly is used for styling alone. Rest of the bindings can be achieved by regular KnockoutJS and jQuery. Read forward to learn how to get the above result.
- <!-- more -->
+<!-- more -->
 If you are not familiar with RequireJS and OracleJet, some of the things are bit tricky at first, hence basic knowledge on this is expected.
 ## The View
 View mainly consists of Two elements. One is title bar and another is collapsible div. We can use font-awesome to get the icons.

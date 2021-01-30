@@ -9,9 +9,9 @@ All the modern browsers have multiple types of storage mechanisms for using in y
 
 However, cookies can only store small amounts of information. The other kind of storage is sessionStorage, where you can store big chunks of information. However all the data stored in this will be lost as soon as you close the browser tab.
 
+Local storage provides an intermediary option, it can store large amount of information and it will not be lost after the user closes the tab or browser. The data is persisted across sessions. However, we may want a better solution. We want to store large chunks of data across sessions, but we still want to have an option of invalidating after a certain period of time. Let us see how to go on about solving the problem.
+<!-- more -->
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/140760885@N04/49959194511/in/dateposted/" title="Browser Storages"><img src="https://live.staticflickr.com/65535/49959194511_65bced3703_z.jpg" width="640" height="549" alt="Browser Storages"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-Local storage provides an intermediary option, it can store large amount of information and it will not be lost after the user closes the tab or browser. The data is persisted across sessions. However, we may want a better solution. We want to store large chunks of data across sessions, but we still want to have an option of invalidating after a certain period of time.
 
 ## Solution
 The solution is to wrap localStorage API with a utility. Your application's logic for accessing should encapsulated in a single class. Using localStorage revolves around storing item with a key and fetching the item previously stored.

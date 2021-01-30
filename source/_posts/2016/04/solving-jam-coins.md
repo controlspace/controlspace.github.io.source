@@ -7,7 +7,6 @@ description: I'm going to show you how to solve JamCoins problem of 2016 Google 
 sourcecode: https://github.com/jbuddha/competitions/blob/master/codejam/src/year2016/JamCoins.java
 sourcetype: g
 ---
-## The Problem
 
 Here is a moderate problem of CodeJam's qualification round of 2016. The Jam Coins. It is an interesting problem which gives a glimpse into another popular virtual currency, bit-coin mining. Here is the description of the problem. You need to generate jamcoins of either 16 digits for small dataset or 32 digits for large datasets. Jam Coins follow the given rules...
 1. A Jam Coin is only made up of 1's & 0's of the required number of digits.

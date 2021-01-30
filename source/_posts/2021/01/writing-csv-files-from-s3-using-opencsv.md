@@ -9,7 +9,7 @@ description: Gives an example of how to use opencsv in java to write csv files t
 In the previous post about [How to read csv files from S3 using OpenCSV](/2021/01/reading-csv-files-from-s3-using-opencsv/), we have seen how to open and files on S3 and read the comma separated data into list of hashmaps. In this article, we will see how to perform the reverse, writing data to the files.
 
 Most of the fundamental concepts do not change. You need to create S3 client if you want to do anything with S3. The AWS profile configured should be of the user or role that has permissions to write to S3. The bucket policy should allow writing files. I'm not going to cover how to setup aws credentials and IAM policies in this post. The method getS3() in the complete code snippet below is going to return an S3 client just like in the previous post.
-
+<!-- more -->
 In order for us to write CSV files using OpenCSV, you need to create a `CSVWriter` object. It allows us to write text to a stream and redirect them to a csv file. Here is how you can create a writer.
 
 {% codeblock lang:java %}
@@ -38,7 +38,7 @@ meta.setContentLength(stream.toByteArray().length);
 getS3().putObject(BUCKET, PATH, new ByteArrayInputStream(stream.toByteArray()), meta);
 {% endcodeblock %}
 
-Putting everything together, following code code combines all the snippets we have seen before. <!-- more -->
+Putting everything together, following code code combines all the snippets we have seen before.
 
 {% codeblock lang:java %}
 import java.io.*;
