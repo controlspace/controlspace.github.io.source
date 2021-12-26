@@ -6,7 +6,7 @@ author: Buddha
 description: Breadth first Traversal in a binary tree is a famous problem related to binary trees tree
 ---
 
-<img src="/blog/assets/svgs/2016/breadth-first-traversal.svg" alt="Breadth first/Level order traversal of a binary tree"/>
+<img src="/blog/assets/svgs/2016/breadth-first-traversal-2.svg" alt="Breadth first/Level order traversal of a binary tree"/>
 <span class="caption">Breadth first/Level order traversal of a binary tree</span>
 
 ## The Problem
@@ -16,19 +16,19 @@ Imagine you have a binary tree where as shown above. You may be aware of InOrder
 Different traversals produce different output as shown below
 
 {% codeblock In-Order Traversal lang:java %}
-1 12 23 46 89 445 461 678 789
+10 15 20 25 28 30 32 35 45 50 55 60 62 65 70 75 80 90 95
 {% endcodeblock %}
 
 {% codeblock Post-Order Traversal lang:java %}
-1 12 89 46 23 461 789 678 445
+10 20 15 28 32 30 45 35 25 55 62 70 65 60 80 95 90 75 50
 {% endcodeblock %}
 
 {% codeblock Pre-Order Traversal lang:java %}
-445 23 12 1 46 89 678 461 789
+50 25 15 10 20 35 30 28 32 45 75 60 55 65 62 70 90 80 95
 {% endcodeblock %}
 
 {% codeblock Level-Order Traversal lang:java %}
-445 23 678 12 46 461 789 1 89
+50 25 75 15 35 60 90 10 20 30 45 55 65 80 95 28 32 62 70
 {% endcodeblock %}
 
 

@@ -1,2 +1,2 @@
-# cd /Volumes/work/controlspace/source
-# hexo serve
+# cd /Volumes/Code/controlspace/source
+hexo serve
